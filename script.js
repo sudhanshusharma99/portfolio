@@ -1,18 +1,19 @@
 // Initialize AOS animations
 AOS.init({
-    duration: 1000,
-    easing: 'ease-in-out',
+    duration: 1500, // Speed of animation
+    easing: 'ease-in-out', // Smoother animations
+    once: true, // Animation plays only once
 });
 
-// Particles.js configuration
+// Particles.js Configuration
 particlesJS('particles-js', {
     particles: {
-        number: { value: 80, density: { enable: true, value_area: 800 } },
-        color: { value: '#ffffff' },
+        number: { value: 100, density: { enable: true, value_area: 800 } },
+        color: { value: '#e63946' }, // Red particles
         shape: { type: 'circle' },
-        opacity: { value: 0.5 },
+        opacity: { value: 0.4 },
         size: { value: 3 },
-        line_linked: { enable: true, color: '#ffffff' },
+        line_linked: { enable: true, color: '#e63946' },
         move: { enable: true, speed: 2 },
     },
 });
