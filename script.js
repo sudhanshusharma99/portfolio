@@ -9,7 +9,7 @@ AOS.init({
 particlesJS('particles-js', {
     particles: {
         number: { value: 100, density: { enable: true, value_area: 800 } },
-        color: { value: '#e63946' }, // Red particles
+        color: { value: ['#e63946', '#ffffff'] }, // Red and White
         shape: { type: 'circle' },
         opacity: { value: 0.4 },
         size: { value: 3 },
